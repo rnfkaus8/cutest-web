@@ -1,6 +1,7 @@
 import './globals.css'
 
 import {NextUIProvider} from '@nextui-org/react'
+import React from "react";
 
 export const metadata = {
   title: 'Create Next App',
