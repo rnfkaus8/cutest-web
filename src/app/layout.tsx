@@ -1,6 +1,5 @@
 import './globals.css'
 
-import {NextUIProvider} from '@nextui-org/react'
 import React from "react";
 
 export const metadata = {
@@ -14,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <NextUIProvider>
+    <html lang="en">
       <body>{children}</body>
-    </NextUIProvider>
+    </html>
   )
 }
