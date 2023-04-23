@@ -8,7 +8,6 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "next/core-web-vitals",
     "airbnb",
     "airbnb/hooks",
     "airbnb-typescript",
@@ -19,7 +18,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
-    project: ["tsconfig.json"],
+    project: ["./tsconfig.json"],
   },
   plugins: ["react", "@typescript-eslint"],
   rules: {
