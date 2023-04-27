@@ -1,11 +1,9 @@
-body {
-    margin: 0;
-    background-color: white;
-    color: black;
-}
-.title {
-    text-align: center;
-}
-.sub-title {
-    text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+    height: 100%;
 }
