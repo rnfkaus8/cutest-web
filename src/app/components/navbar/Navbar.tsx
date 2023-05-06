@@ -1,4 +1,5 @@
 import Container from "@/app/components/Container";
+import Logo from "@/app/components/navbar/Logo";
 
 const Navbar = () => {
   return (
