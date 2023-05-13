@@ -1,5 +1,5 @@
-export const MenuItem = () => {
-    return (
-        <></>
-    )
-}
+const MenuItem = () => {
+  return <></>;
+};
+
+export default MenuItem;
