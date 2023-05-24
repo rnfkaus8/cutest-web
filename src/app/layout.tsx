@@ -1,17 +1,17 @@
-import "./globals.css";
-import { Nunito } from "next/font/google";
+import './globals.css';
+import { Nunito } from 'next/font/google';
 
-import React from "react";
-import Navbar from "@/app/components/navbar/Navbar";
-import ClientOnly from "@/app/components/ClientOnly";
-import Modal from "@/app/components/modals/Modal";
+import React from 'react';
+import Navbar from '@/app/components/navbar/Navbar';
+import ClientOnly from '@/app/components/ClientOnly';
+import Modal from '@/app/components/modals/Modal';
 
 export const metadata = {
-  title: "Airbnb",
-  description: "Airbnb",
+  title: 'Airbnb',
+  description: 'Airbnb',
 };
 
-const font = Nunito({ subsets: ["latin"] });
+const font = Nunito({ subsets: ['latin'] });
 
 export default function RootLayout({
   children,
@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={font.className}>
         <ClientOnly>
-          <Modal isOpen />
+          <Modal isOpen title="Hello World" />
           <Navbar />
         </ClientOnly>
         {children}
