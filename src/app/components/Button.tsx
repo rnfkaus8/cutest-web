@@ -17,7 +17,7 @@ const Button: React.FC<ButtonProps> = ({
   small,
   icon,
 }) => {
-  return <button></button>;
+  return <button>{label}</button>;
 };
 
 export default Button;
